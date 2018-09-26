@@ -1,0 +1,220 @@
+[18.951892853] 2018-09-26 20:58:46,305 - INFO - launcher: Starting sanity checks
+[18.951892853] 2018-09-26 20:58:46,305 - INFO - launcher: Checking for Python 3.5+
+[18.951892853] 2018-09-26 20:58:46,305 - INFO - launcher: Checking console encoding
+[18.951892853] 2018-09-26 20:58:46,305 - INFO - launcher: Setting console encoding to UTF-8
+[19.919633865] 2018-09-26 20:58:46,305 - INFO - launcher: Ensuring we're in the right environment
+[20.699024200] 2018-09-26 20:58:46,306 - INFO - launcher: Adding local bins/ folder to path
+[398.837327957] 2018-09-26 20:58:46,684 - INFO - launcher: Required checks passed.
+[400.804281235] 2018-09-26 20:58:46,686 - INFO - launcher: Optional checks passed.
+[400.804281235] 2018-09-26 20:58:46,686 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[0.7638616561889648] 2018-09-26 20:58:47,049 - WARNING - musicbot.config | In config.py::MainThread(5848), line 113 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[0.7648632526397705] 2018-09-26 20:58:47,050 - INFO - musicbot.config | In config.py::MainThread(5848), line 124 in run_checks: Using i18n: config/i18n/en.json
+[0.7668266296386719] 2018-09-26 20:58:47,052 - DEBUG - musicbot.json | In json.py::MainThread(5848), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[0.7818081378936768] 2018-09-26 20:58:47,067 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 223 in _setup_logging: Set logging level to INFO
+[0.7818081378936768] 2018-09-26 20:58:47,067 - INFO - musicbot.bot | In bot.py::MainThread(5848), line 83 in __init__: Starting MusicBot 1.9.8_1
+[0.7828059196472168] 2018-09-26 20:58:47,068 - INFO - musicbot.bot | In bot.py::MainThread(5848), line 89 in __init__: Loaded autoplaylist with 705 entries
+[3.5431232452392578] 2018-09-26 20:58:49,829 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 913 in on_ready: Connection established, ready to go.
+[3.5431232452392578] 2018-09-26 20:58:49,829 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 334 in _cache_app_info: Caching app info
+[3.7259480953216553] 2018-09-26 20:58:50,012 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 735 in _scheck_ensure_env: Ensuring data folders exist
+[3.7259480953216553] 2018-09-26 20:58:50,012 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 751 in _scheck_server_permissions: Checking server permissions
+[3.7269454002380371] 2018-09-26 20:58:50,013 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 755 in _scheck_autoplaylist: Auditing autoplaylist
+[3.7269454002380371] 2018-09-26 20:58:50,013 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 759 in _scheck_configs: Validating config
+[3.7269454002380371] 2018-09-26 20:58:50,013 - DEBUG - musicbot.config | In config.py::MainThread(5848), line 213 in async_validate: Validating options...
+[3.7269454002380371] 2018-09-26 20:58:50,013 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 762 in _scheck_configs: Validating permissions config
+[3.7269454002380371] 2018-09-26 20:58:50,013 - DEBUG - musicbot.permissions | In permissions.py::MainThread(5848), line 65 in async_validate: Validating permissions...
+[3.7269454002380371] 2018-09-26 20:58:50,013 - INFO - musicbot.bot | In bot.py::MainThread(5848), line 930 in on_ready: Connected: 494211855749742613/Mad Dj#5016
+[3.7269454002380371] 2018-09-26 20:58:50,013 - INFO - musicbot.bot | In bot.py::MainThread(5848), line 938 in on_ready: Owner:     270260686175731712/NARKOMAN HULIGAN#2554
+
+[3.7282261848449707] 2018-09-26 20:58:50,014 - INFO - musicbot.bot | In bot.py::MainThread(5848), line 941 in on_ready: Guild List:
+[3.7282261848449707] 2018-09-26 20:58:50,014 - INFO - musicbot.bot | In bot.py::MainThread(5848), line 944 in on_ready:  - MemesAreDrugs
+[3.7282261848449707] 2018-09-26 20:58:50,014 - INFO - musicbot.bot | In bot.py::MainThread(5848), line 990 in on_ready: Not bound to any text channels
+[3.7292261123657227] 2018-09-26 20:58:50,015 - INFO - musicbot.bot | In bot.py::MainThread(5848), line 1016 in on_ready: Not autojoining any voice channels
+[3.7292261123657227] 2018-09-26 20:58:50,015 - INFO - musicbot.bot | In bot.py::MainThread(5848), line 261 in _join_startup_channels: Found resumable voice channel MemesAreDrugs/🎵Music (Speak On)
+[3.7292261123657227] 2018-09-26 20:58:50,015 - INFO - musicbot.bot | In bot.py::MainThread(5848), line 267 in _join_startup_channels: Found owner in "🎵Music (Speak On)"
+[3.7292261123657227] 2018-09-26 20:58:50,015 - INFO - musicbot.bot | In bot.py::MainThread(5848), line 276 in _join_startup_channels: Attempting to join MemesAreDrugs/🎵Music (Speak On)
+[4.3240308761596680] 2018-09-26 20:58:50,610 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 695 in deserialize_queue: Deserializing queue for 493477948779790336
+[4.4247634410858154] 2018-09-26 20:58:50,710 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 417 in get_player: Created player via deserialization for guild 493477948779790336 with 1 entries
+[4.4247634410858154] 2018-09-26 20:58:50,710 - INFO - musicbot.bot | In bot.py::MainThread(5848), line 292 in _join_startup_channels: Joined MemesAreDrugs/🎵Music (Speak On)
+[4.4257600307464600] 2018-09-26 20:58:50,711 - DEBUG - musicbot.entry | In entry.py::MainThread(5848), line 56 in get_ready_future: Created future for audio_cache\youtube-hGVtqBU1nlc-Devault_SteLouse_-_All_I_Need.m4a
+[4.4257600307464600] 2018-09-26 20:58:50,711 - FFMPEG - musicbot.player | In player.py::MainThread(5848), line 276 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-hGVtqBU1nlc-Devault_SteLouse_-_All_I_Need.m4a
+[4.4790542125701904] 2018-09-26 20:58:50,765 - DEBUG - musicbot.player | In player.py::MainThread(5848), line 287 in _play: Playing <discord.player.PCMVolumeTransformer object at 0x0517E710> using <discord.voice_client.VoiceClient object at 0x051539F0>
+[4.4800517559051514] 2018-09-26 20:58:50,766 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 452 in on_player_play: Running on_player_play
+[4.4810492992401123] 2018-09-26 20:58:50,767 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 671 in serialize_queue: Serializing queue for 493477948779790336
+[21.4322059154510498] 2018-09-26 20:59:07,718 - INFO - musicbot.bot | In bot.py::MainThread(5848), line 2598 in on_message: 270260686175731712/NARKOMAN HULIGAN#2554: *skip
+[21.4571173191070557] 2018-09-26 20:59:07,743 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 509 in on_player_finished_playing: Running on_player_finished_playing
+[21.4581153392791748] 2018-09-26 20:59:07,744 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 524 in on_player_finished_playing: No content in current autoplaylist. Filling with new music...
+[21.4700825214385986] 2018-09-26 20:59:07,756 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 505 in on_player_stop: Running on_player_stop
+[24.3232882022857666] 2018-09-26 20:59:10,609 - DEBUG - musicbot.entry | In entry.py::MainThread(5848), line 56 in get_ready_future: Created future for None
+[24.3232882022857666] 2018-09-26 20:59:10,609 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 586 in on_player_entry_added: Running on_player_entry_added
+[24.3243122100830078] 2018-09-26 20:59:10,610 - INFO - musicbot.entry | In entry.py::MainThread(5848), line 285 in _really_download: Download started: https://www.youtube.com/watch?v=WfN-A32PGLs
+[26.3288013935089111] 2018-09-26 20:59:12,614 - DEBUG - musicbot.entry | In entry.py::MainThread(5848), line 56 in get_ready_future: Created future for None
+[26.4185256958007812] 2018-09-26 20:59:12,704 - INFO - musicbot.entry | In entry.py::MainThread(5848), line 295 in _really_download: Download complete: https://www.youtube.com/watch?v=WfN-A32PGLs
+[26.4215178489685059] 2018-09-26 20:59:12,707 - FFMPEG - musicbot.player | In player.py::MainThread(5848), line 276 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-WfN-A32PGLs-3LAU_-_Is_It_Love_ft._Yeah_Boy_Justin_Caruso_Remix_Premiere.webm
+[26.4734027385711670] 2018-09-26 20:59:12,759 - DEBUG - musicbot.player | In player.py::MainThread(5848), line 287 in _play: Playing <discord.player.PCMVolumeTransformer object at 0x04EFD7D0> using <discord.voice_client.VoiceClient object at 0x051539F0>
+[26.4753739833831787] 2018-09-26 20:59:12,761 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 452 in on_player_play: Running on_player_play
+[26.4753739833831787] 2018-09-26 20:59:12,761 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 671 in serialize_queue: Serializing queue for 493477948779790336
+[193.9312987327575684] 2018-09-26 21:02:00,217 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 509 in on_player_finished_playing: Running on_player_finished_playing
+[193.9332942962646484] 2018-09-26 21:02:00,219 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 505 in on_player_stop: Running on_player_stop
+[196.6320159435272217] 2018-09-26 21:02:02,918 - DEBUG - musicbot.entry | In entry.py::MainThread(5848), line 56 in get_ready_future: Created future for None
+[196.6320159435272217] 2018-09-26 21:02:02,918 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 586 in on_player_entry_added: Running on_player_entry_added
+[196.6320159435272217] 2018-09-26 21:02:02,918 - INFO - musicbot.entry | In entry.py::MainThread(5848), line 285 in _really_download: Download started: https://www.youtube.com/watch?v=C6IaUMAg3Dc
+[198.5241897106170654] 2018-09-26 21:02:04,810 - INFO - musicbot.entry | In entry.py::MainThread(5848), line 295 in _really_download: Download complete: https://www.youtube.com/watch?v=C6IaUMAg3Dc
+[198.6366090774536133] 2018-09-26 21:02:04,922 - DEBUG - musicbot.entry | In entry.py::MainThread(5848), line 56 in get_ready_future: Created future for audio_cache\youtube-C6IaUMAg3Dc-Jo_Cohen_Sex_Whales_-_We_Are_NCS_Release.webm
+[198.6366090774536133] 2018-09-26 21:02:04,922 - FFMPEG - musicbot.player | In player.py::MainThread(5848), line 276 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-C6IaUMAg3Dc-Jo_Cohen_Sex_Whales_-_We_Are_NCS_Release.webm
+[198.6864752769470215] 2018-09-26 21:02:04,972 - DEBUG - musicbot.player | In player.py::MainThread(5848), line 287 in _play: Playing <discord.player.PCMVolumeTransformer object at 0x05E74610> using <discord.voice_client.VoiceClient object at 0x051539F0>
+[198.6874725818634033] 2018-09-26 21:02:04,973 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 452 in on_player_play: Running on_player_play
+[198.6884708404541016] 2018-09-26 21:02:04,974 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 671 in serialize_queue: Serializing queue for 493477948779790336
+[438.0114588737487793] 2018-09-26 21:06:04,297 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 509 in on_player_finished_playing: Running on_player_finished_playing
+[438.0140514373779297] 2018-09-26 21:06:04,300 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 505 in on_player_stop: Running on_player_stop
+[440.7367875576019287] 2018-09-26 21:06:07,022 - DEBUG - musicbot.entry | In entry.py::MainThread(5848), line 56 in get_ready_future: Created future for None
+[440.7367875576019287] 2018-09-26 21:06:07,022 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 586 in on_player_entry_added: Running on_player_entry_added
+[440.7377848625183105] 2018-09-26 21:06:07,023 - INFO - musicbot.entry | In entry.py::MainThread(5848), line 285 in _really_download: Download started: https://www.youtube.com/watch?v=GKXUknfmdV4
+[442.4085917472839355] 2018-09-26 21:06:08,694 - INFO - musicbot.entry | In entry.py::MainThread(5848), line 295 in _really_download: Download complete: https://www.youtube.com/watch?v=GKXUknfmdV4
+[442.7405066490173340] 2018-09-26 21:06:09,026 - DEBUG - musicbot.entry | In entry.py::MainThread(5848), line 56 in get_ready_future: Created future for audio_cache\youtube-GKXUknfmdV4-Dan_Farber_-_Take_Me_High.webm
+[442.7405066490173340] 2018-09-26 21:06:09,026 - FFMPEG - musicbot.player | In player.py::MainThread(5848), line 276 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-GKXUknfmdV4-Dan_Farber_-_Take_Me_High.webm
+[442.7923686504364014] 2018-09-26 21:06:09,078 - DEBUG - musicbot.player | In player.py::MainThread(5848), line 287 in _play: Playing <discord.player.PCMVolumeTransformer object at 0x05E9DFF0> using <discord.voice_client.VoiceClient object at 0x051539F0>
+[442.7933673858642578] 2018-09-26 21:06:09,079 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 452 in on_player_play: Running on_player_play
+[442.7943637371063232] 2018-09-26 21:06:09,080 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 671 in serialize_queue: Serializing queue for 493477948779790336
+[642.3359980583190918] 2018-09-26 21:09:28,622 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 509 in on_player_finished_playing: Running on_player_finished_playing
+[642.3389871120452881] 2018-09-26 21:09:28,625 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 505 in on_player_stop: Running on_player_stop
+[644.9484283924102783] 2018-09-26 21:09:31,234 - DEBUG - musicbot.entry | In entry.py::MainThread(5848), line 56 in get_ready_future: Created future for None
+[644.9494254589080811] 2018-09-26 21:09:31,235 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 586 in on_player_entry_added: Running on_player_entry_added
+[644.9494254589080811] 2018-09-26 21:09:31,235 - INFO - musicbot.entry | In entry.py::MainThread(5848), line 285 in _really_download: Download started: https://www.youtube.com/watch?v=i1jSCpo1Vq0
+[646.8815381526947021] 2018-09-26 21:09:33,167 - INFO - musicbot.entry | In entry.py::MainThread(5848), line 295 in _really_download: Download complete: https://www.youtube.com/watch?v=i1jSCpo1Vq0
+[646.9476451873779297] 2018-09-26 21:09:33,233 - DEBUG - musicbot.entry | In entry.py::MainThread(5848), line 56 in get_ready_future: Created future for audio_cache\youtube-i1jSCpo1Vq0-Sex_Whales_Roee_Yeger_-_Where_Was_I_feat._Ashley_Apollodor_NCS_Release.webm
+[646.9476451873779297] 2018-09-26 21:09:33,233 - FFMPEG - musicbot.player | In player.py::MainThread(5848), line 276 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-i1jSCpo1Vq0-Sex_Whales_Roee_Yeger_-_Where_Was_I_feat._Ashley_Apollodor_NCS_Release.webm
+[646.9985113143920898] 2018-09-26 21:09:33,284 - DEBUG - musicbot.player | In player.py::MainThread(5848), line 287 in _play: Playing <discord.player.PCMVolumeTransformer object at 0x04EFDF30> using <discord.voice_client.VoiceClient object at 0x051539F0>
+[646.9995093345642090] 2018-09-26 21:09:33,285 - INFO - musicbot.bot | In bot.py::MainThread(5848), line 512 in _autopause: Player finished playing, autopaused in empty channel
+[647.0005059242248535] 2018-09-26 21:09:33,286 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 452 in on_player_play: Running on_player_play
+[647.0005059242248535] 2018-09-26 21:09:33,286 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 671 in serialize_queue: Serializing queue for 493477948779790336
+[647.0015265941619873] 2018-09-26 21:09:33,287 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 500 in on_player_pause: Running on_player_pause
+[778.2631759643554688] 2018-09-26 21:11:44,549 - INFO - musicbot.bot | In bot.py::MainThread(5848), line 2829 in on_voice_state_update: Unpausing in MemesAreDrugs/🎮League Of Legends
+[778.2641735076904297] 2018-09-26 21:11:44,550 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 496 in on_player_resume: Running on_player_resume
+[871.5651066303253174] 2018-09-26 21:13:17,851 - INFO - musicbot.bot | In bot.py::MainThread(5848), line 2598 in on_message: 270260686175731712/NARKOMAN HULIGAN#2554: *skip
+[871.5740818977355957] 2018-09-26 21:13:17,860 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 509 in on_player_finished_playing: Running on_player_finished_playing
+[871.5750794410705566] 2018-09-26 21:13:17,861 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 505 in on_player_stop: Running on_player_stop
+[877.3968646526336670] 2018-09-26 21:13:23,682 - DEBUG - musicbot.entry | In entry.py::MainThread(5848), line 56 in get_ready_future: Created future for None
+[877.3968646526336670] 2018-09-26 21:13:23,682 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 586 in on_player_entry_added: Running on_player_entry_added
+[877.3968646526336670] 2018-09-26 21:13:23,682 - INFO - musicbot.entry | In entry.py::MainThread(5848), line 285 in _really_download: Download started: https://www.youtube.com/watch?v=1-XLJUYItb8
+[879.3980879783630371] 2018-09-26 21:13:25,684 - DEBUG - musicbot.entry | In entry.py::MainThread(5848), line 56 in get_ready_future: Created future for None
+[882.1990525722503662] 2018-09-26 21:13:28,485 - INFO - musicbot.entry | In entry.py::MainThread(5848), line 295 in _really_download: Download complete: https://www.youtube.com/watch?v=1-XLJUYItb8
+[882.2020688056945801] 2018-09-26 21:13:28,488 - FFMPEG - musicbot.player | In player.py::MainThread(5848), line 276 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-1-XLJUYItb8-Illenium_Kerli_-_Sound_Of_Walking_Away.webm
+[882.2578969001770020] 2018-09-26 21:13:28,543 - DEBUG - musicbot.player | In player.py::MainThread(5848), line 287 in _play: Playing <discord.player.PCMVolumeTransformer object at 0x051669F0> using <discord.voice_client.VoiceClient object at 0x051539F0>
+[882.2598905563354492] 2018-09-26 21:13:28,545 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 452 in on_player_play: Running on_player_play
+[882.2598905563354492] 2018-09-26 21:13:28,545 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 671 in serialize_queue: Serializing queue for 493477948779790336
+[1135.6034944057464600] 2018-09-26 21:17:41,889 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 509 in on_player_finished_playing: Running on_player_finished_playing
+[1135.6065189838409424] 2018-09-26 21:17:41,892 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 505 in on_player_stop: Running on_player_stop
+[1138.2797586917877197] 2018-09-26 21:17:44,565 - DEBUG - musicbot.entry | In entry.py::MainThread(5848), line 56 in get_ready_future: Created future for None
+[1138.2797586917877197] 2018-09-26 21:17:44,565 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 586 in on_player_entry_added: Running on_player_entry_added
+[1138.2807557582855225] 2018-09-26 21:17:44,566 - INFO - musicbot.entry | In entry.py::MainThread(5848), line 285 in _really_download: Download started: https://www.youtube.com/watch?v=lwaPX-yhK84
+[1140.2696609497070312] 2018-09-26 21:17:46,555 - DEBUG - musicbot.entry | In entry.py::MainThread(5848), line 56 in get_ready_future: Created future for None
+[1140.5648717880249023] 2018-09-26 21:17:46,850 - INFO - musicbot.entry | In entry.py::MainThread(5848), line 295 in _really_download: Download complete: https://www.youtube.com/watch?v=lwaPX-yhK84
+[1140.7054948806762695] 2018-09-26 21:17:46,991 - FFMPEG - musicbot.player | In player.py::MainThread(5848), line 276 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-lwaPX-yhK84-AVE_EFX_Varun_-_Paint_the_Sky_feat._LA_James.webm
+[1140.9378736019134521] 2018-09-26 21:17:47,223 - DEBUG - musicbot.player | In player.py::MainThread(5848), line 287 in _play: Playing <discord.player.PCMVolumeTransformer object at 0x04EFD750> using <discord.voice_client.VoiceClient object at 0x051539F0>
+[1141.0864756107330322] 2018-09-26 21:17:47,372 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 452 in on_player_play: Running on_player_play
+[1141.0874736309051514] 2018-09-26 21:17:47,373 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 671 in serialize_queue: Serializing queue for 493477948779790336
+[1378.3362383842468262] 2018-09-26 21:21:44,622 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 509 in on_player_finished_playing: Running on_player_finished_playing
+[1378.3402018547058105] 2018-09-26 21:21:44,626 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 505 in on_player_stop: Running on_player_stop
+[1380.8361694812774658] 2018-09-26 21:21:47,122 - DEBUG - musicbot.entry | In entry.py::MainThread(5848), line 56 in get_ready_future: Created future for None
+[1380.8371682167053223] 2018-09-26 21:21:47,123 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 586 in on_player_entry_added: Running on_player_entry_added
+[1380.8371682167053223] 2018-09-26 21:21:47,123 - INFO - musicbot.entry | In entry.py::MainThread(5848), line 285 in _really_download: Download started: https://www.youtube.com/watch?v=PIh2xe4jnpk
+[1382.4013307094573975] 2018-09-26 21:21:48,687 - INFO - musicbot.entry | In entry.py::MainThread(5848), line 295 in _really_download: Download complete: https://www.youtube.com/watch?v=PIh2xe4jnpk
+[1382.8491628170013428] 2018-09-26 21:21:49,135 - DEBUG - musicbot.entry | In entry.py::MainThread(5848), line 56 in get_ready_future: Created future for audio_cache\youtube-PIh2xe4jnpk-MAGIC_-_Rude_Official_Video.webm
+[1382.8491628170013428] 2018-09-26 21:21:49,135 - FFMPEG - musicbot.player | In player.py::MainThread(5848), line 276 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-PIh2xe4jnpk-MAGIC_-_Rude_Official_Video.webm
+[1382.9009945392608643] 2018-09-26 21:21:49,187 - DEBUG - musicbot.player | In player.py::MainThread(5848), line 287 in _play: Playing <discord.player.PCMVolumeTransformer object at 0x05153550> using <discord.voice_client.VoiceClient object at 0x051539F0>
+[1382.9019927978515625] 2018-09-26 21:21:49,188 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 452 in on_player_play: Running on_player_play
+[1382.9029896259307861] 2018-09-26 21:21:49,189 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 671 in serialize_queue: Serializing queue for 493477948779790336
+[1608.8254470825195312] 2018-09-26 21:25:35,111 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 509 in on_player_finished_playing: Running on_player_finished_playing
+[1608.8274424076080322] 2018-09-26 21:25:35,113 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 505 in on_player_stop: Running on_player_stop
+[1611.5257966518402100] 2018-09-26 21:25:37,811 - DEBUG - musicbot.entry | In entry.py::MainThread(5848), line 56 in get_ready_future: Created future for None
+[1611.5257966518402100] 2018-09-26 21:25:37,811 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 586 in on_player_entry_added: Running on_player_entry_added
+[1611.5267944335937500] 2018-09-26 21:25:37,812 - INFO - musicbot.entry | In entry.py::MainThread(5848), line 285 in _really_download: Download started: https://www.youtube.com/watch?v=ym38SwPoKXo
+[1613.1295621395111084] 2018-09-26 21:25:39,415 - INFO - musicbot.entry | In entry.py::MainThread(5848), line 295 in _really_download: Download complete: https://www.youtube.com/watch?v=ym38SwPoKXo
+[1613.5361008644104004] 2018-09-26 21:25:39,822 - DEBUG - musicbot.entry | In entry.py::MainThread(5848), line 56 in get_ready_future: Created future for audio_cache\youtube-ym38SwPoKXo-Flume_-_Wall_Fuck_Jey_Vazz_Remix.webm
+[1613.5361008644104004] 2018-09-26 21:25:39,822 - FFMPEG - musicbot.player | In player.py::MainThread(5848), line 276 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-ym38SwPoKXo-Flume_-_Wall_Fuck_Jey_Vazz_Remix.webm
+[1613.6109008789062500] 2018-09-26 21:25:39,896 - DEBUG - musicbot.player | In player.py::MainThread(5848), line 287 in _play: Playing <discord.player.PCMVolumeTransformer object at 0x05E9DE70> using <discord.voice_client.VoiceClient object at 0x051539F0>
+[1613.6148912906646729] 2018-09-26 21:25:39,900 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 452 in on_player_play: Running on_player_play
+[1613.6158907413482666] 2018-09-26 21:25:39,901 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 671 in serialize_queue: Serializing queue for 493477948779790336
+[1795.6504292488098145] 2018-09-26 21:28:41,936 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 509 in on_player_finished_playing: Running on_player_finished_playing
+[1795.6564123630523682] 2018-09-26 21:28:41,942 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 505 in on_player_stop: Running on_player_stop
+[1798.0286283493041992] 2018-09-26 21:28:44,314 - DEBUG - musicbot.entry | In entry.py::MainThread(5848), line 56 in get_ready_future: Created future for None
+[1798.0286283493041992] 2018-09-26 21:28:44,314 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 586 in on_player_entry_added: Running on_player_entry_added
+[1798.0296256542205811] 2018-09-26 21:28:44,315 - INFO - musicbot.entry | In entry.py::MainThread(5848), line 285 in _really_download: Download started: https://www.youtube.com/watch?v=SsrVM4yXf5w
+[1799.6957161426544189] 2018-09-26 21:28:45,981 - INFO - musicbot.entry | In entry.py::MainThread(5848), line 295 in _really_download: Download complete: https://www.youtube.com/watch?v=SsrVM4yXf5w
+[1800.0286459922790527] 2018-09-26 21:28:46,314 - DEBUG - musicbot.entry | In entry.py::MainThread(5848), line 56 in get_ready_future: Created future for audio_cache\youtube-SsrVM4yXf5w-Yellow_Claw_Flux_Pavilion_-_Catch_Me_WY_Flip.webm
+[1800.0296435356140137] 2018-09-26 21:28:46,315 - FFMPEG - musicbot.player | In player.py::MainThread(5848), line 276 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-SsrVM4yXf5w-Yellow_Claw_Flux_Pavilion_-_Catch_Me_WY_Flip.webm
+[1800.0984592437744141] 2018-09-26 21:28:46,384 - DEBUG - musicbot.player | In player.py::MainThread(5848), line 287 in _play: Playing <discord.player.PCMVolumeTransformer object at 0x05EE1C50> using <discord.voice_client.VoiceClient object at 0x051539F0>
+[1800.1014509201049805] 2018-09-26 21:28:46,387 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 452 in on_player_play: Running on_player_play
+[1800.1024482250213623] 2018-09-26 21:28:46,388 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 671 in serialize_queue: Serializing queue for 493477948779790336
+[2064.6232881546020508] 2018-09-26 21:33:10,909 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 509 in on_player_finished_playing: Running on_player_finished_playing
+[2064.6242861747741699] 2018-09-26 21:33:10,910 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 505 in on_player_stop: Running on_player_stop
+[2067.2949366569519043] 2018-09-26 21:33:13,581 - DEBUG - musicbot.entry | In entry.py::MainThread(5848), line 56 in get_ready_future: Created future for None
+[2067.2949366569519043] 2018-09-26 21:33:13,581 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 586 in on_player_entry_added: Running on_player_entry_added
+[2067.2959058284759521] 2018-09-26 21:33:13,581 - INFO - musicbot.entry | In entry.py::MainThread(5848), line 285 in _really_download: Download started: https://www.youtube.com/watch?v=5P-Obb-i9d4
+[2069.2868037223815918] 2018-09-26 21:33:15,572 - DEBUG - musicbot.entry | In entry.py::MainThread(5848), line 56 in get_ready_future: Created future for None
+[2069.4393684864044189] 2018-09-26 21:33:15,725 - INFO - musicbot.entry | In entry.py::MainThread(5848), line 295 in _really_download: Download complete: https://www.youtube.com/watch?v=5P-Obb-i9d4
+[2069.4423613548278809] 2018-09-26 21:33:15,728 - FFMPEG - musicbot.player | In player.py::MainThread(5848), line 276 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-5P-Obb-i9d4-Kenton_Slash_Demon_-_Skydancer_II.webm
+[2069.5051932334899902] 2018-09-26 21:33:15,791 - DEBUG - musicbot.player | In player.py::MainThread(5848), line 287 in _play: Playing <discord.player.PCMVolumeTransformer object at 0x0517EB10> using <discord.voice_client.VoiceClient object at 0x051539F0>
+[2069.5071871280670166] 2018-09-26 21:33:15,793 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 452 in on_player_play: Running on_player_play
+[2069.5071871280670166] 2018-09-26 21:33:15,793 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 671 in serialize_queue: Serializing queue for 493477948779790336
+[2224.5560002326965332] 2018-09-26 21:35:50,842 - INFO - musicbot.bot | In bot.py::MainThread(5848), line 2598 in on_message: 270260686175731712/NARKOMAN HULIGAN#2554: *skip
+[2224.5874018669128418] 2018-09-26 21:35:50,873 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 509 in on_player_finished_playing: Running on_player_finished_playing
+[2224.5913929939270020] 2018-09-26 21:35:50,877 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 505 in on_player_stop: Running on_player_stop
+[2227.0684616565704346] 2018-09-26 21:35:53,354 - DEBUG - musicbot.entry | In entry.py::MainThread(5848), line 56 in get_ready_future: Created future for None
+[2227.0684616565704346] 2018-09-26 21:35:53,354 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 586 in on_player_entry_added: Running on_player_entry_added
+[2227.0694582462310791] 2018-09-26 21:35:53,355 - INFO - musicbot.entry | In entry.py::MainThread(5848), line 285 in _really_download: Download started: https://www.youtube.com/watch?v=9PFZbm6yNV4
+[2229.0651905536651611] 2018-09-26 21:35:55,351 - DEBUG - musicbot.entry | In entry.py::MainThread(5848), line 56 in get_ready_future: Created future for None
+[2229.2506954669952393] 2018-09-26 21:35:55,536 - INFO - musicbot.entry | In entry.py::MainThread(5848), line 295 in _really_download: Download complete: https://www.youtube.com/watch?v=9PFZbm6yNV4
+[2229.2526905536651611] 2018-09-26 21:35:55,538 - FFMPEG - musicbot.player | In player.py::MainThread(5848), line 276 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-9PFZbm6yNV4-OVERWERK_-_House_ft._Nick_Nikon_Meta_Remix.webm
+[2229.4432232379913330] 2018-09-26 21:35:55,729 - DEBUG - musicbot.player | In player.py::MainThread(5848), line 287 in _play: Playing <discord.player.PCMVolumeTransformer object at 0x05E9DFD0> using <discord.voice_client.VoiceClient object at 0x051539F0>
+[2229.4452240467071533] 2018-09-26 21:35:55,731 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 452 in on_player_play: Running on_player_play
+[2229.4462153911590576] 2018-09-26 21:35:55,732 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 671 in serialize_queue: Serializing queue for 493477948779790336
+[2521.2033839225769043] 2018-09-26 21:40:47,489 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 509 in on_player_finished_playing: Running on_player_finished_playing
+[2521.2063755989074707] 2018-09-26 21:40:47,492 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 505 in on_player_stop: Running on_player_stop
+[2523.8817834854125977] 2018-09-26 21:40:50,167 - DEBUG - musicbot.entry | In entry.py::MainThread(5848), line 56 in get_ready_future: Created future for None
+[2523.8817834854125977] 2018-09-26 21:40:50,167 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 586 in on_player_entry_added: Running on_player_entry_added
+[2523.8817834854125977] 2018-09-26 21:40:50,167 - INFO - musicbot.entry | In entry.py::MainThread(5848), line 285 in _really_download: Download started: https://www.youtube.com/watch?v=ugCQOGCSJD0
+[2525.8527011871337891] 2018-09-26 21:40:52,138 - INFO - musicbot.entry | In entry.py::MainThread(5848), line 295 in _really_download: Download complete: https://www.youtube.com/watch?v=ugCQOGCSJD0
+[2525.8858466148376465] 2018-09-26 21:40:52,171 - DEBUG - musicbot.entry | In entry.py::MainThread(5848), line 56 in get_ready_future: Created future for audio_cache\youtube-ugCQOGCSJD0-Big_Sean_-_Bounce_Back_Vanic_Remix.webm
+[2525.8858466148376465] 2018-09-26 21:40:52,171 - FFMPEG - musicbot.player | In player.py::MainThread(5848), line 276 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-ugCQOGCSJD0-Big_Sean_-_Bounce_Back_Vanic_Remix.webm
+[2525.9386022090911865] 2018-09-26 21:40:52,224 - DEBUG - musicbot.player | In player.py::MainThread(5848), line 287 in _play: Playing <discord.player.PCMVolumeTransformer object at 0x05EEF970> using <discord.voice_client.VoiceClient object at 0x051539F0>
+[2525.9395990371704102] 2018-09-26 21:40:52,225 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 452 in on_player_play: Running on_player_play
+[2525.9405970573425293] 2018-09-26 21:40:52,226 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 671 in serialize_queue: Serializing queue for 493477948779790336
+[2708.1634836196899414] 2018-09-26 21:43:54,449 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 509 in on_player_finished_playing: Running on_player_finished_playing
+[2708.1664667129516602] 2018-09-26 21:43:54,452 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 505 in on_player_stop: Running on_player_stop
+[2710.6607584953308105] 2018-09-26 21:43:56,946 - DEBUG - musicbot.entry | In entry.py::MainThread(5848), line 56 in get_ready_future: Created future for None
+[2710.6607584953308105] 2018-09-26 21:43:56,946 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 586 in on_player_entry_added: Running on_player_entry_added
+[2710.6617324352264404] 2018-09-26 21:43:56,947 - INFO - musicbot.entry | In entry.py::MainThread(5848), line 285 in _really_download: Download started: https://www.youtube.com/watch?v=Qz6AOcQp7WI
+[2712.5261015892028809] 2018-09-26 21:43:58,812 - INFO - musicbot.entry | In entry.py::MainThread(5848), line 295 in _really_download: Download complete: https://www.youtube.com/watch?v=Qz6AOcQp7WI
+[2712.6589527130126953] 2018-09-26 21:43:58,945 - DEBUG - musicbot.entry | In entry.py::MainThread(5848), line 56 in get_ready_future: Created future for audio_cache\youtube-Qz6AOcQp7WI-Deflo_Lliam_Taylor_-_Spotlight_feat._AWA_NCS_Release.webm
+[2712.6589527130126953] 2018-09-26 21:43:58,945 - FFMPEG - musicbot.player | In player.py::MainThread(5848), line 276 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-Qz6AOcQp7WI-Deflo_Lliam_Taylor_-_Spotlight_feat._AWA_NCS_Release.webm
+[2712.7138047218322754] 2018-09-26 21:43:58,999 - DEBUG - musicbot.player | In player.py::MainThread(5848), line 287 in _play: Playing <discord.player.PCMVolumeTransformer object at 0x05ED77F0> using <discord.voice_client.VoiceClient object at 0x051539F0>
+[2712.7148025035858154] 2018-09-26 21:43:59,000 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 452 in on_player_play: Running on_player_play
+[2712.7148025035858154] 2018-09-26 21:43:59,000 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 671 in serialize_queue: Serializing queue for 493477948779790336
+[2868.5152003765106201] 2018-09-26 21:46:34,801 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 509 in on_player_finished_playing: Running on_player_finished_playing
+[2868.5181167125701904] 2018-09-26 21:46:34,804 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 505 in on_player_stop: Running on_player_stop
+[2871.0734360218048096] 2018-09-26 21:46:37,359 - DEBUG - musicbot.entry | In entry.py::MainThread(5848), line 56 in get_ready_future: Created future for None
+[2871.0734360218048096] 2018-09-26 21:46:37,359 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 586 in on_player_entry_added: Running on_player_entry_added
+[2871.0744462013244629] 2018-09-26 21:46:37,360 - INFO - musicbot.entry | In entry.py::MainThread(5848), line 285 in _really_download: Download started: https://www.youtube.com/watch?v=X5a0tLjGOww
+[2872.8699607849121094] 2018-09-26 21:46:39,156 - INFO - musicbot.entry | In entry.py::MainThread(5848), line 295 in _really_download: Download complete: https://www.youtube.com/watch?v=X5a0tLjGOww
+[2873.0766739845275879] 2018-09-26 21:46:39,362 - DEBUG - musicbot.entry | In entry.py::MainThread(5848), line 56 in get_ready_future: Created future for audio_cache\youtube-X5a0tLjGOww-Hard_Dance_-_Stonebank_-_Be_Alright_feat._EMEL_Monstercat_Release.webm
+[2873.0766739845275879] 2018-09-26 21:46:39,362 - FFMPEG - musicbot.player | In player.py::MainThread(5848), line 276 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-X5a0tLjGOww-Hard_Dance_-_Stonebank_-_Be_Alright_feat._EMEL_Monstercat_Release.webm
+[2873.1304359436035156] 2018-09-26 21:46:39,416 - DEBUG - musicbot.player | In player.py::MainThread(5848), line 287 in _play: Playing <discord.player.PCMVolumeTransformer object at 0x05166D30> using <discord.voice_client.VoiceClient object at 0x051539F0>
+[2873.1314327716827393] 2018-09-26 21:46:39,417 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 452 in on_player_play: Running on_player_play
+[2873.1324303150177002] 2018-09-26 21:46:39,418 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 671 in serialize_queue: Serializing queue for 493477948779790336
+[3172.6508777141571045] 2018-09-26 21:51:38,936 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 509 in on_player_finished_playing: Running on_player_finished_playing
+[3172.6538884639739990] 2018-09-26 21:51:38,939 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 505 in on_player_stop: Running on_player_stop
+[3175.2554097175598145] 2018-09-26 21:51:41,541 - DEBUG - musicbot.entry | In entry.py::MainThread(5848), line 56 in get_ready_future: Created future for None
+[3175.2564072608947754] 2018-09-26 21:51:41,542 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 586 in on_player_entry_added: Running on_player_entry_added
+[3175.2564072608947754] 2018-09-26 21:51:41,542 - INFO - musicbot.entry | In entry.py::MainThread(5848), line 285 in _really_download: Download started: https://www.youtube.com/watch?v=Bw-eSvAeCIk
+[3176.9256482124328613] 2018-09-26 21:51:43,211 - INFO - musicbot.entry | In entry.py::MainThread(5848), line 295 in _really_download: Download complete: https://www.youtube.com/watch?v=Bw-eSvAeCIk
+[3177.2563569545745850] 2018-09-26 21:51:43,542 - DEBUG - musicbot.entry | In entry.py::MainThread(5848), line 56 in get_ready_future: Created future for audio_cache\youtube-Bw-eSvAeCIk-Oshi_-_Whispers_feat._Avonlea.webm
+[3177.2563569545745850] 2018-09-26 21:51:43,542 - FFMPEG - musicbot.player | In player.py::MainThread(5848), line 276 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-Bw-eSvAeCIk-Oshi_-_Whispers_feat._Avonlea.webm
+[3177.3072183132171631] 2018-09-26 21:51:43,593 - DEBUG - musicbot.player | In player.py::MainThread(5848), line 287 in _play: Playing <discord.player.PCMVolumeTransformer object at 0x05EE1EB0> using <discord.voice_client.VoiceClient object at 0x051539F0>
+[3177.3082149028778076] 2018-09-26 21:51:43,594 - INFO - musicbot.bot | In bot.py::MainThread(5848), line 512 in _autopause: Player finished playing, autopaused in empty channel
+[3177.3082149028778076] 2018-09-26 21:51:43,594 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 452 in on_player_play: Running on_player_play
+[3177.3092122077941895] 2018-09-26 21:51:43,595 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 671 in serialize_queue: Serializing queue for 493477948779790336
+[3177.3102104663848877] 2018-09-26 21:51:43,596 - DEBUG - musicbot.bot | In bot.py::MainThread(5848), line 500 in on_player_pause: Running on_player_pause
